@@ -1,0 +1,10 @@
+# Machine-local runtime state — never commit (contains local service credentials)
+opencode/service.json
+
+# Backups produced by the setup scripts
+*.bak.*
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini

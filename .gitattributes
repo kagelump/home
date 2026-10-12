@@ -1,0 +1,7 @@
+# Shell scripts must stay LF or bash chokes on \r
+* text=auto
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# JSON configs are stored as-is
+*.json text

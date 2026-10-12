@@ -1,0 +1,1171 @@
+{
+    "$schema":  "https://opencode.ai/config.json",
+    "providers":  {
+                      "openrouter":  {
+                                         "models":  {
+                                                        "sao10k/l3-lunaris-8b":  {
+                                                                                     "name":  "Llama 3 8B Lunaris ($0.04/$0.05 per M)"
+                                                                                 },
+                                                        "sao10k/l3.3-euryale-70b":  {
+                                                                                        "name":  "Llama 3.3 Euryale 70B ($0.65/$0.75 per M)"
+                                                                                    },
+                                                        "sao10k/l3.1-euryale-70b":  {
+                                                                                        "name":  "Llama 3.1 Euryale 70B v2.2 ($0.85/$0.85 per M)"
+                                                                                    },
+                                                        "bytedance-seed/seed-1.6-flash":  {
+                                                                                              "name":  "Seed 1.6 Flash ($0.08/$0.3 per M; \u003e=128k ctx: $0.1/$0.8)"
+                                                                                          },
+                                                        "bytedance-seed/seed-2.0-lite":  {
+                                                                                             "name":  "Seed 2.0 Lite ($0.25/$2 per M; \u003e=128k ctx: $0.5/$4)"
+                                                                                         },
+                                                        "bytedance-seed/seed-2-1-turbo":  {
+                                                                                              "name":  "Seed 2.1 Turbo ($0.5/$2.5 per M)"
+                                                                                          },
+                                                        "bytedance-seed/seed-2.0-mini":  {
+                                                                                             "name":  "Seed 2.0 Mini ($0.1/$0.4 per M; \u003e=128k ctx: $0.2/$0.8)"
+                                                                                         },
+                                                        "bytedance-seed/seed-2.0-code":  {
+                                                                                             "name":  "Seed 2.0 Code ($0.5/$3 per M; \u003e=128k ctx: $1/$6)"
+                                                                                         },
+                                                        "bytedance-seed/seed-1.6":  {
+                                                                                        "name":  "Seed 1.6 ($0.25/$2 per M; \u003e=128k ctx: $0.5/$4)"
+                                                                                    },
+                                                        "~moonshotai/kimi-latest":  {
+                                                                                        "name":  "Kimi Latest ($0.72/$24 per M)"
+                                                                                    },
+                                                        "poolside/laguna-s-2.1:free":  {
+                                                                                           "name":  "Laguna S 2.1 (free)"
+                                                                                       },
+                                                        "poolside/laguna-s-2.1":  {
+                                                                                      "name":  "Laguna S 2.1 ($0.09/$0.18 per M)"
+                                                                                  },
+                                                        "poolside/laguna-xs-2.1:free":  {
+                                                                                            "name":  "Laguna XS 2.1 (free)"
+                                                                                        },
+                                                        "poolside/laguna-xs-2.1":  {
+                                                                                       "name":  "Laguna XS 2.1 ($0.06/$0.12 per M)"
+                                                                                   },
+                                                        "prism-ml/ternary-bonsai-2-27b":  {
+                                                                                              "name":  "Ternary Bonsai 2 27B ($0.08/$0.5 per M)"
+                                                                                          },
+                                                        "anthropic/claude-opus-4.1":  {
+                                                                                          "name":  "Claude Opus 4.1 (latest) ($15/$75 per M)"
+                                                                                      },
+                                                        "anthropic/claude-opus-4.5":  {
+                                                                                          "name":  "Claude Opus 4.5 (latest) ($5/$25 per M)"
+                                                                                      },
+                                                        "anthropic/claude-opus-4.6":  {
+                                                                                          "name":  "Claude Opus 4.6 ($5/$25 per M; \u003e=200k ctx: $10/$37.5)"
+                                                                                      },
+                                                        "anthropic/claude-opus-4.7":  {
+                                                                                          "name":  "Claude Opus 4.7 ($5/$25 per M; \u003e=200k ctx: $10/$37.5)"
+                                                                                      },
+                                                        "anthropic/claude-haiku-5.5":  {
+                                                                                           "name":  "Claude Haiku 5.5 ($0.1/$0.5 per M; \u003e=100k ctx: $0.5/$2.5)"
+                                                                                       },
+                                                        "anthropic/claude-opus-4.8":  {
+                                                                                          "name":  "Claude Opus 4.8 ($5/$25 per M)"
+                                                                                      },
+                                                        "anthropic/claude-haiku-4.5":  {
+                                                                                           "name":  "Claude Haiku 4.5 (latest) ($1/$5 per M)"
+                                                                                       },
+                                                        "anthropic/claude-opus-5":  {
+                                                                                        "name":  "Claude Opus 5 ($5/$25 per M)"
+                                                                                    },
+                                                        "anthropic/claude-sonnet-5.5":  {
+                                                                                            "name":  "Claude Sonnet 5.5 ($2/$10 per M)"
+                                                                                        },
+                                                        "anthropic/claude-fable-5.1":  {
+                                                                                           "name":  "Claude Fable 5.1 ($10/$50 per M)"
+                                                                                       },
+                                                        "anthropic/claude-sonnet-4.5":  {
+                                                                                            "name":  "Claude Sonnet 4.5 (latest) ($3/$15 per M; \u003e=200k ctx: $6/$22.5)"
+                                                                                        },
+                                                        "anthropic/claude-fable-5":  {
+                                                                                         "name":  "Claude Fable 5 ($10/$50 per M)"
+                                                                                     },
+                                                        "anthropic/claude-sonnet-4":  {
+                                                                                          "name":  "Claude Sonnet 4 ($3/$15 per M; \u003e=200k ctx: $6/$22.5)"
+                                                                                      },
+                                                        "anthropic/claude-sonnet-5":  {
+                                                                                          "name":  "Claude Sonnet 5 ($2/$10 per M)"
+                                                                                      },
+                                                        "anthropic/claude-sonnet-4.6":  {
+                                                                                            "name":  "Claude Sonnet 4.6 ($3/$15 per M; \u003e=200k ctx: $6/$22.5)"
+                                                                                        },
+                                                        "anthropic/claude-opus-5.5":  {
+                                                                                          "name":  "Claude Opus 5.5 ($4/$20 per M)"
+                                                                                      },
+                                                        "nex-agi/nex-n2.5-mini":  {
+                                                                                      "name":  "Nex-N2.5-Mini ($0.03/$0.1 per M)"
+                                                                                  },
+                                                        "nex-agi/nex-n2.5-pro":  {
+                                                                                     "name":  "Nex-N2.5-Pro ($0.08/$0.25 per M)"
+                                                                                 },
+                                                        "cohere/command-r-08-2024":  {
+                                                                                         "name":  "Command R ($0.15/$0.6 per M)"
+                                                                                     },
+                                                        "cohere/command-a-plus":  {
+                                                                                      "name":  "Command A+ ($0.3/$1.5 per M)"
+                                                                                  },
+                                                        "cohere/command-a":  {
+                                                                                 "name":  "Command A ($2.5/$10 per M)"
+                                                                             },
+                                                        "cohere/north-mini-code:free":  {
+                                                                                            "name":  "North Mini Code (free)"
+                                                                                        },
+                                                        "cohere/command-r7b-12-2024":  {
+                                                                                           "name":  "Command R7B ($0.04/$0.15 per M)"
+                                                                                       },
+                                                        "cohere/command-r-plus-08-2024":  {
+                                                                                              "name":  "Command R+ ($2.5/$10 per M)"
+                                                                                          },
+                                                        "deepseek/deepseek-chat-v3.1":  {
+                                                                                            "name":  "DeepSeek V3.1 ($0.25/$0.95 per M)"
+                                                                                        },
+                                                        "deepseek/deepseek-v4-flash-0731":  {
+                                                                                                "name":  "DeepSeek V4 Flash 0731 ($0.02/$0.64 per M)"
+                                                                                            },
+                                                        "deepseek/deepseek-v4.1-flash":  {
+                                                                                             "name":  "DeepSeek V4.1 Flash ($0.3/$1.2 per M)"
+                                                                                         },
+                                                        "deepseek/deepseek-v4-flash-vision-exp":  {
+                                                                                                      "name":  "DeepSeek V4 Flash Vision Exp ($0.22/$0.65 per M)"
+                                                                                                  },
+                                                        "deepseek/deepseek-v3.1-terminus":  {
+                                                                                                "name":  "DeepSeek V3.1 Terminus ($0.27/$1 per M)"
+                                                                                            },
+                                                        "deepseek/deepseek-chat":  {
+                                                                                       "name":  "DeepSeek Chat ($0.32/$0.89 per M)"
+                                                                                   },
+                                                        "deepseek/deepseek-v4-pro-0813":  {
+                                                                                              "name":  "DeepSeek V4 Pro 0813 ($1.32/$3.96 per M)"
+                                                                                          },
+                                                        "deepseek/deepseek-v3.2-exp":  {
+                                                                                           "name":  "DeepSeek V3.2 Exp ($0.27/$0.41 per M)"
+                                                                                       },
+                                                        "deepseek/deepseek-chat-v3-0324":  {
+                                                                                               "name":  "DeepSeek V3 0324 ($0.29/$1.14 per M)"
+                                                                                           },
+                                                        "deepseek/deepseek-r1":  {
+                                                                                     "name":  "DeepSeek-R1 ($0.7/$2.5 per M)"
+                                                                                 },
+                                                        "deepseek/deepseek-v4-pro":  {
+                                                                                         "name":  "DeepSeek V4 Pro ($0.96/$1.91 per M)"
+                                                                                     },
+                                                        "deepseek/deepseek-r1-0528":  {
+                                                                                          "name":  "DeepSeek R1 0528 ($0.5/$2.15 per M)"
+                                                                                      },
+                                                        "deepseek/deepseek-v3.2":  {
+                                                                                       "name":  "DeepSeek V3.2 ($0.26/$0.8 per M)"
+                                                                                   },
+                                                        "deepseek/deepseek-v4-flash":  {
+                                                                                           "name":  "DeepSeek V4 Flash ($0.03/$1.28 per M)"
+                                                                                       },
+                                                        "unbiased/pareto-26.10-preview":  {
+                                                                                              "name":  "Pareto 26.10 Preview ($0.8/$3.2 per M)"
+                                                                                          },
+                                                        "unbiased/pareto":  {
+                                                                                "name":  "Pareto ($2.5/$7.5 per M)"
+                                                                            },
+                                                        "tencent/hy3-preview":  {
+                                                                                    "name":  "Hy3 preview ($0.18/$0.6 per M)"
+                                                                                },
+                                                        "tencent/hunyuan-a13b-instruct":  {
+                                                                                              "name":  "Hunyuan A13B Instruct ($0.14/$0.57 per M)"
+                                                                                          },
+                                                        "tencent/hy-mt2-30b-a3b":  {
+                                                                                       "name":  "Hy-MT2-30B-A3B ($0.07/$0.3 per M)"
+                                                                                   },
+                                                        "tencent/hy-mt2-1.8b":  {
+                                                                                    "name":  "Hy-MT2-1.8B ($0.04/$0.18 per M)"
+                                                                                },
+                                                        "tencent/hy3":  {
+                                                                            "name":  "Hy3 ($0.13/$0.53 per M)"
+                                                                        },
+                                                        "tencent/hy-mt2-7b":  {
+                                                                                  "name":  "Hy-MT2-7B ($0.07/$0.3 per M)"
+                                                                              },
+                                                        "tencent/hy4-preview":  {
+                                                                                    "name":  "Hy4 preview ($0.83/$2.5 per M)"
+                                                                                },
+                                                        "anthracite-org/magnum-v4-72b":  {
+                                                                                             "name":  "Magnum v4 72B ($2.5/$5 per M)"
+                                                                                         },
+                                                        "meta-llama/llama-4-scout":  {
+                                                                                         "name":  "Llama 4 Scout ($0.1/$0.3 per M)"
+                                                                                     },
+                                                        "meta-llama/llama-guard-4-12b":  {
+                                                                                             "name":  "Llama Guard 4 12B ($0.18/$0.18 per M)"
+                                                                                         },
+                                                        "meta-llama/llama-4-maverick":  {
+                                                                                            "name":  "Llama 4 Maverick ($0.19/$0.65 per M)"
+                                                                                        },
+                                                        "meta-llama/llama-3.3-70b-instruct":  {
+                                                                                                  "name":  "Llama-3.3-70B-Instruct ($0.22/$0.5 per M)"
+                                                                                              },
+                                                        "meta-llama/llama-3.1-8b-instruct":  {
+                                                                                                 "name":  "Llama-3.1-8B-Instruct ($0.05/$0.08 per M)"
+                                                                                             },
+                                                        "meta-llama/llama-3.2-1b-instruct":  {
+                                                                                                 "name":  "Llama 3.2 1B Instruct ($0.03/$0.2 per M)"
+                                                                                             },
+                                                        "meta-llama/llama-3.2-3b-instruct":  {
+                                                                                                 "name":  "Llama 3.2 3B Instruct ($0.05/$0.33 per M)"
+                                                                                             },
+                                                        "meta-llama/llama-3.1-70b-instruct":  {
+                                                                                                  "name":  "Llama-3.1-70B-Instruct ($0.4/$0.4 per M)"
+                                                                                              },
+                                                        "~google/gemini-flash-latest":  {
+                                                                                            "name":  "Gemini Flash Latest ($0.75/$3.75 per M)"
+                                                                                        },
+                                                        "~google/gemini-pro-latest":  {
+                                                                                          "name":  "Gemini Pro Latest ($2/$12 per M; \u003e=200k ctx: $4/$18)"
+                                                                                      },
+                                                        "perceptron/perceptron-mk1":  {
+                                                                                          "name":  "Perceptron Mk1 ($0.15/$1.5 per M)"
+                                                                                      },
+                                                        "perceptron/perceptron-mk1.5":  {
+                                                                                            "name":  "Perceptron Mk1.5 ($0.15/$1.5 per M)"
+                                                                                        },
+                                                        "z-ai/glm-4.6v":  {
+                                                                              "name":  "GLM-4.6V ($0.3/$0.9 per M)"
+                                                                          },
+                                                        "z-ai/glm-4.5":  {
+                                                                             "name":  "GLM-4.5 ($0.6/$2.2 per M)"
+                                                                         },
+                                                        "z-ai/glm-5.3-prime":  {
+                                                                                   "name":  "GLM 5.3 Prime ($2.8/$8.8 per M)"
+                                                                               },
+                                                        "z-ai/glm-5v-turbo":  {
+                                                                                  "name":  "GLM-5V-Turbo ($1.2/$4 per M)"
+                                                                              },
+                                                        "z-ai/glm-5.3-flash":  {
+                                                                                   "name":  "GLM-5.3-Flash ($0.15/$0.5 per M)"
+                                                                               },
+                                                        "z-ai/glm-4.6":  {
+                                                                             "name":  "GLM-4.6 ($0.5/$2 per M)"
+                                                                         },
+                                                        "z-ai/glm-5":  {
+                                                                           "name":  "GLM-5 ($0.6/$1.92 per M)"
+                                                                       },
+                                                        "z-ai/glm-4.5v":  {
+                                                                              "name":  "GLM-4.5V ($0.6/$1.8 per M)"
+                                                                          },
+                                                        "z-ai/glm-5.3-flashx":  {
+                                                                                    "name":  "GLM 5.3 FlashX ($0.37/$1.25 per M)"
+                                                                                },
+                                                        "z-ai/glm-4.7-flash":  {
+                                                                                   "name":  "GLM-4.7-Flash ($0.06/$0.4 per M)"
+                                                                               },
+                                                        "z-ai/glm-4.7":  {
+                                                                             "name":  "GLM-4.7 ($0.6/$2.2 per M)"
+                                                                         },
+                                                        "z-ai/glm-5.2":  {
+                                                                             "name":  "GLM-5.2 ($0.06/$7 per M)"
+                                                                         },
+                                                        "z-ai/glm-5.1":  {
+                                                                             "name":  "GLM-5.1 ($0.97/$3.04 per M)"
+                                                                         },
+                                                        "z-ai/glm-5-turbo":  {
+                                                                                 "name":  "GLM-5-Turbo ($1.2/$4 per M)"
+                                                                             },
+                                                        "z-ai/glm-4.5-air":  {
+                                                                                 "name":  "GLM-4.5-Air ($0.13/$0.85 per M)"
+                                                                             },
+                                                        "z-ai/glm-5.3":  {
+                                                                             "name":  "GLM-5.3 ($0.08/$4.8 per M)"
+                                                                         },
+                                                        "inference-net/schematron-v2-small":  {
+                                                                                                  "name":  "Schematron V2 Small ($0.05/$0.23 per M)"
+                                                                                              },
+                                                        "inference-net/schematron-v2-turbo":  {
+                                                                                                  "name":  "Schematron V2 Turbo ($0.03/$0.15 per M)"
+                                                                                              },
+                                                        "thinkingmachines/inkling-small:free":  {
+                                                                                                    "name":  "Inkling Small (free)"
+                                                                                                },
+                                                        "thinkingmachines/inkling-small":  {
+                                                                                               "name":  "Inkling Small ($0.45/$1.2 per M)"
+                                                                                           },
+                                                        "thinkingmachines/inkling:free":  {
+                                                                                              "name":  "Inkling (free)"
+                                                                                          },
+                                                        "thinkingmachines/inkling":  {
+                                                                                         "name":  "Inkling ($1/$4.05 per M)"
+                                                                                     },
+                                                        "meituan/longcat-2.0":  {
+                                                                                    "name":  "LongCat 2.0 ($0.3/$1.2 per M)"
+                                                                                },
+                                                        "openrouter/bodybuilder":  {
+                                                                                       "name":  "Body Builder (beta) (N/A)"
+                                                                                   },
+                                                        "openrouter/free":  {
+                                                                                "name":  "Free Models Router"
+                                                                            },
+                                                        "openrouter/pareto-code":  {
+                                                                                       "name":  "Pareto Code Router (N/A)"
+                                                                                   },
+                                                        "openrouter/fusion":  {
+                                                                                  "name":  "Fusion (N/A)"
+                                                                              },
+                                                        "openrouter/auto":  {
+                                                                                "name":  "Auto Router (N/A)"
+                                                                            },
+                                                        "perplexity/sonar-pro":  {
+                                                                                     "name":  "Sonar Pro ($3/$15 per M)"
+                                                                                 },
+                                                        "perplexity/sonar-deep-research":  {
+                                                                                               "name":  "Sonar Deep Research ($2/$8 per M)"
+                                                                                           },
+                                                        "perplexity/sonar":  {
+                                                                                 "name":  "Sonar ($1/$1 per M)"
+                                                                             },
+                                                        "perplexity/sonar-reasoning-pro":  {
+                                                                                               "name":  "Sonar Reasoning Pro ($2/$8 per M)"
+                                                                                           },
+                                                        "perplexity/sonar-pro-search":  {
+                                                                                            "name":  "Sonar Pro Search ($3/$15 per M)"
+                                                                                        },
+                                                        "meta/muse-spark-1.3":  {
+                                                                                    "name":  "Muse Spark 1.3 ($1.25/$4.25 per M)"
+                                                                                },
+                                                        "meta/muse-glimmer-30b":  {
+                                                                                      "name":  "Muse Glimmer 30B ($0.3/$1.2 per M)"
+                                                                                  },
+                                                        "meta/muse-spark-1.1":  {
+                                                                                    "name":  "Muse Spark 1.1 ($1.25/$4.25 per M)"
+                                                                                },
+                                                        "meta/muse-spark-1.2":  {
+                                                                                    "name":  "Muse Spark 1.2 ($1.25/$4.25 per M)"
+                                                                                },
+                                                        "meta/muse-spark-1.2-contributor":  {
+                                                                                                "name":  "Muse Spark 1.2 Contributor ($0.1/$0.2 per M)"
+                                                                                            },
+                                                        "meta/muse-spark-1.3-contributor":  {
+                                                                                                "name":  "Muse Spark 1.3 Contributor ($0.1/$0.2 per M)"
+                                                                                            },
+                                                        "nousresearch/hermes-3-llama-3.1-70b":  {
+                                                                                                    "name":  "Hermes 3 70B Instruct ($0.7/$0.7 per M)"
+                                                                                                },
+                                                        "nousresearch/hermes-3-llama-3.1-405b":  {
+                                                                                                     "name":  "Hermes 3 405B Instruct ($1/$1 per M)"
+                                                                                                 },
+                                                        "nousresearch/hermes-4-405b":  {
+                                                                                           "name":  "Hermes 4 405B ($1/$3 per M)"
+                                                                                       },
+                                                        "~z-ai/glm-flash-latest":  {
+                                                                                       "name":  "GLM Flash Latest ($0.03/$1.2 per M)"
+                                                                                   },
+                                                        "~z-ai/glm-latest":  {
+                                                                                 "name":  "GLM Latest ($0.06/$5 per M)"
+                                                                             },
+                                                        "arcee-ai/trinity-large-thinking":  {
+                                                                                                "name":  "Trinity Large Thinking ($0.25/$0.8 per M)"
+                                                                                            },
+                                                        "~openai/gpt-terra-latest":  {
+                                                                                         "name":  "GPT Terra Latest ($2/$12 per M; \u003e=272k ctx: $4/$18)"
+                                                                                     },
+                                                        "~openai/gpt-luna-latest":  {
+                                                                                        "name":  "GPT Luna Latest ($0.1/$0.5 per M; \u003e=272k ctx: $0.2/$0.75)"
+                                                                                    },
+                                                        "~openai/gpt-sol-latest":  {
+                                                                                       "name":  "GPT Sol Latest ($2/$10 per M; \u003e=272k ctx: $4/$15)"
+                                                                                   },
+                                                        "~openai/gpt-astra-latest":  {
+                                                                                         "name":  "GPT Astra Latest ($10/$50 per M; \u003e=272k ctx: $20/$75)"
+                                                                                     },
+                                                        "~openai/gpt-mini-latest":  {
+                                                                                        "name":  "GPT Mini Latest ($0.75/$4.5 per M)"
+                                                                                    },
+                                                        "cognitivecomputations/dolphin-mistral-24b-venice-edition":  {
+                                                                                                                         "name":  "Uncensored ($0.2/$0.9 per M)"
+                                                                                                                     },
+                                                        "thedrummer/skyfall-36b-v2":  {
+                                                                                          "name":  "Skyfall 36B V2 ($0.55/$0.8 per M)"
+                                                                                      },
+                                                        "thedrummer/unslopnemo-12b":  {
+                                                                                          "name":  "UnslopNemo 12B ($0.4/$0.4 per M)"
+                                                                                      },
+                                                        "thedrummer/cydonia-24b-v4.1":  {
+                                                                                            "name":  "Cydonia 24B V4.1 ($0.3/$0.5 per M)"
+                                                                                        },
+                                                        "x-ai/grok-4.20-multi-agent":  {
+                                                                                           "name":  "Grok 4.20 Multi-Agent ($1.25/$2.5 per M; \u003e=200k ctx: $2.5/$5)"
+                                                                                       },
+                                                        "x-ai/grok-4.7":  {
+                                                                              "name":  "Grok 4.7 ($2/$6 per M; \u003e=200k ctx: $4/$12)"
+                                                                          },
+                                                        "x-ai/grok-4.3":  {
+                                                                              "name":  "Grok 4.3 ($1.25/$2.5 per M; \u003e=200k ctx: $2.5/$5)"
+                                                                          },
+                                                        "x-ai/grok-4.5":  {
+                                                                              "name":  "Grok 4.5 ($2/$6 per M; \u003e=200k ctx: $4/$12)"
+                                                                          },
+                                                        "x-ai/grok-build-0.1":  {
+                                                                                    "name":  "Grok Build 0.1 ($1/$2 per M; \u003e=200k ctx: $2/$4)"
+                                                                                },
+                                                        "x-ai/grok-4.20":  {
+                                                                               "name":  "Grok 4.20 ($1.25/$2.5 per M; \u003e=200k ctx: $2.5/$5)"
+                                                                           },
+                                                        "x-ai/grok-4.6":  {
+                                                                              "name":  "Grok 4.6 ($2/$6 per M; \u003e=200k ctx: $4/$12)"
+                                                                          },
+                                                        "~anthropic/claude-opus-latest":  {
+                                                                                              "name":  "Claude Opus Latest ($4/$20 per M)"
+                                                                                          },
+                                                        "~anthropic/claude-haiku-latest":  {
+                                                                                               "name":  "Claude Haiku Latest ($0.1/$0.5 per M; \u003e=100k ctx: $0.5/$2.5)"
+                                                                                           },
+                                                        "~anthropic/claude-sonnet-latest":  {
+                                                                                                "name":  "Claude Sonnet Latest ($2/$10 per M)"
+                                                                                            },
+                                                        "~anthropic/claude-fable-latest":  {
+                                                                                               "name":  "Claude Fable Latest ($10/$50 per M)"
+                                                                                           },
+                                                        "upstage/solar-pro-3":  {
+                                                                                    "name":  "Solar Pro 3 ($0.15/$0.6 per M)"
+                                                                                },
+                                                        "upstage/solar-pro4":  {
+                                                                                   "name":  "Solar Pro 4 ($0.09/$0.36 per M)"
+                                                                               },
+                                                        "upstage/solar-mini4":  {
+                                                                                    "name":  "Solar Mini 4 ($0.05/$0.2 per M)"
+                                                                                },
+                                                        "~deepseek/deepseek-flash-latest":  {
+                                                                                                "name":  "DeepSeek Flash Latest ($0.03/$1.19 per M)"
+                                                                                            },
+                                                        "~deepseek/deepseek-pro-latest":  {
+                                                                                              "name":  "DeepSeek Pro Latest ($0.25/$5 per M)"
+                                                                                          },
+                                                        "~deepseek/deepseek-v4-flash-latest":  {
+                                                                                                   "name":  "DeepSeek V4 Flash Latest ($0.01/$0.77 per M)"
+                                                                                               },
+                                                        "~x-ai/grok-latest":  {
+                                                                                  "name":  "Grok Latest ($2/$6 per M; \u003e=200k ctx: $4/$12)"
+                                                                              },
+                                                        "bytedance/ui-tars-1.5-7b":  {
+                                                                                         "name":  "UI-TARS 7B  ($0.1/$0.2 per M)"
+                                                                                     },
+                                                        "liquid/lfm-2.5-2.6b:free":  {
+                                                                                         "name":  "LFM2.5-2.6B (free)"
+                                                                                     },
+                                                        "google/gemma-4-31b-it":  {
+                                                                                      "name":  "Gemma 4 31B IT ($0.09/$0.34 per M)"
+                                                                                  },
+                                                        "google/gemini-3.1-flash-image-preview":  {
+                                                                                                      "name":  "Nano Banana 2 Preview ($0.5/$3 per M)"
+                                                                                                  },
+                                                        "google/lyria-3-pro-preview":  {
+                                                                                           "name":  "Lyria 3 Pro Preview (free)"
+                                                                                       },
+                                                        "google/gemma-3-27b-it":  {
+                                                                                      "name":  "Gemma 3 27B IT ($0.08/$0.45 per M)"
+                                                                                  },
+                                                        "google/gemma-4-31b-it:free":  {
+                                                                                           "name":  "Gemma 4 31B (free)"
+                                                                                       },
+                                                        "google/gemini-2.5-flash-image":  {
+                                                                                              "name":  "Nano Banana ($0.3/$2.5 per M)"
+                                                                                          },
+                                                        "google/gemma-4-26b-a4b-it:free":  {
+                                                                                               "name":  "Gemma 4 26B A4B  (free)"
+                                                                                           },
+                                                        "google/gemma-2-27b-it":  {
+                                                                                      "name":  "Gemma 2 27B ($0.65/$0.65 per M)"
+                                                                                  },
+                                                        "google/gemini-3.6-flash":  {
+                                                                                        "name":  "Gemini 3.6 Flash ($0.75/$3.75 per M)"
+                                                                                    },
+                                                        "google/gemma-4-26b-a4b-it":  {
+                                                                                          "name":  "Gemma 4 26B A4B IT ($0.09/$0.3 per M)"
+                                                                                      },
+                                                        "google/gemini-3-pro-image-preview":  {
+                                                                                                  "name":  "Nano Banana Pro Preview ($2/$12 per M)"
+                                                                                              },
+                                                        "google/gemini-3.5-flash-lite":  {
+                                                                                             "name":  "Gemini 3.5 Flash Lite ($0.3/$2.5 per M)"
+                                                                                         },
+                                                        "google/gemini-3.1-flash-image":  {
+                                                                                              "name":  "Nano Banana 2 ($0.5/$3 per M)"
+                                                                                          },
+                                                        "google/lyria-3-clip-preview":  {
+                                                                                            "name":  "Lyria 3 Clip Preview (free)"
+                                                                                        },
+                                                        "google/gemini-3.1-pro-preview":  {
+                                                                                              "name":  "Gemini 3.1 Pro Preview ($2/$12 per M; \u003e=200k ctx: $4/$18)"
+                                                                                          },
+                                                        "google/gemma-3-12b-it":  {
+                                                                                      "name":  "Gemma 3 12B IT ($0.05/$0.15 per M)"
+                                                                                  },
+                                                        "google/gemini-3.5-flash":  {
+                                                                                        "name":  "Gemini 3.5 Flash ($1.5/$9 per M)"
+                                                                                    },
+                                                        "google/gemini-2.5-pro":  {
+                                                                                      "name":  "Gemini 2.5 Pro ($1.25/$10 per M; \u003e=200k ctx: $2.5/$15)"
+                                                                                  },
+                                                        "google/gemini-3-pro-image":  {
+                                                                                          "name":  "Nano Banana Pro ($2/$12 per M)"
+                                                                                      },
+                                                        "google/gemini-2.5-flash":  {
+                                                                                        "name":  "Gemini 2.5 Flash ($0.3/$2.5 per M)"
+                                                                                    },
+                                                        "google/gemini-3.1-flash-lite-image":  {
+                                                                                                   "name":  "Nano Banana 2 Lite ($0.25/$1.5 per M)"
+                                                                                               },
+                                                        "google/gemini-3.7-flash":  {
+                                                                                        "name":  "Gemini 3.7 Flash ($0.75/$3.75 per M)"
+                                                                                    },
+                                                        "google/gemini-3.1-pro-preview-customtools":  {
+                                                                                                          "name":  "Gemini 3.1 Pro Preview Custom Tools ($2/$12 per M; \u003e=200k ctx: $4/$18)"
+                                                                                                      },
+                                                        "google/gemini-3-flash-preview":  {
+                                                                                              "name":  "Gemini 3 Flash Preview ($0.5/$3 per M)"
+                                                                                          },
+                                                        "google/gemini-3.8-flash":  {
+                                                                                        "name":  "Gemini 3.8 Flash ($0.75/$3.75 per M)"
+                                                                                    },
+                                                        "google/gemma-3-4b-it":  {
+                                                                                     "name":  "Gemma 3 4B IT ($0.05/$0.1 per M)"
+                                                                                 },
+                                                        "google/gemini-2.5-flash-lite":  {
+                                                                                             "name":  "Gemini 2.5 Flash-Lite ($0.1/$0.4 per M)"
+                                                                                         },
+                                                        "google/gemini-2.5-pro-preview":  {
+                                                                                              "name":  "Gemini 2.5 Pro Preview 06-05 ($1.25/$10 per M; \u003e=200k ctx: $2.5/$15)"
+                                                                                          },
+                                                        "google/gemini-3.1-flash-lite-preview":  {
+                                                                                                     "name":  "Gemini 3.1 Flash Lite Preview ($0.25/$1.5 per M)"
+                                                                                                 },
+                                                        "google/gemini-nano-banana-2.1":  {
+                                                                                              "name":  "Nano Banana 2.1 ($1.5/$7.5 per M)"
+                                                                                          },
+                                                        "google/gemini-3.1-flash-lite":  {
+                                                                                             "name":  "Gemini 3.1 Flash Lite ($0.25/$1.5 per M)"
+                                                                                         },
+                                                        "writer/palmyra-x5":  {
+                                                                                  "name":  "Palmyra X5 ($0.6/$6 per M)"
+                                                                              },
+                                                        "ibm-granite/granite-4.0-h-micro":  {
+                                                                                                "name":  "Granite 4.0 Micro ($0.02/$0.11 per M)"
+                                                                                            },
+                                                        "ibm-granite/granite-4.2-8b":  {
+                                                                                           "name":  "Granite 4.2 8B ($0.06/$0.25 per M)"
+                                                                                       },
+                                                        "fireworks/ember-1":  {
+                                                                                  "name":  "Ember-1 ($3/$15 per M)"
+                                                                              },
+                                                        "mistralai/mistral-nemo":  {
+                                                                                       "name":  "Mistral Nemo ($0.03/$0.03 per M)"
+                                                                                   },
+                                                        "mistralai/ministral-8b-2512":  {
+                                                                                            "name":  "Ministral 3 8B 2512 ($0.15/$0.15 per M)"
+                                                                                        },
+                                                        "mistralai/mistral-small-24b-instruct-2501":  {
+                                                                                                          "name":  "Mistral Small 3 ($0.05/$0.08 per M)"
+                                                                                                      },
+                                                        "mistralai/devstral-2512":  {
+                                                                                        "name":  "Devstral 2 ($0.4/$2 per M)"
+                                                                                    },
+                                                        "mistralai/mistral-saba":  {
+                                                                                       "name":  "Saba ($0.2/$0.6 per M)"
+                                                                                   },
+                                                        "mistralai/mistral-medium-3-5":  {
+                                                                                             "name":  "Mistral Medium 3.5 ($1.5/$7.5 per M)"
+                                                                                         },
+                                                        "mistralai/mistral-medium-3.1":  {
+                                                                                             "name":  "Mistral Medium 3.1 ($0.4/$2 per M)"
+                                                                                         },
+                                                        "mistralai/mistral-small-3.2-24b-instruct":  {
+                                                                                                         "name":  "Mistral Small 3.2 24B ($0.09/$0.25 per M)"
+                                                                                                     },
+                                                        "mistralai/mistral-large":  {
+                                                                                        "name":  "Mistral Large ($2/$6 per M)"
+                                                                                    },
+                                                        "mistralai/mistral-small-2603":  {
+                                                                                             "name":  "Mistral Small 4 ($0.15/$0.6 per M)"
+                                                                                         },
+                                                        "mistralai/mistral-medium-3":  {
+                                                                                           "name":  "Mistral Medium 3 ($0.4/$2 per M)"
+                                                                                       },
+                                                        "mistralai/voxtral-small-24b-2507":  {
+                                                                                                 "name":  "Voxtral Small 24B 2507 ($0.1/$0.3 per M)"
+                                                                                             },
+                                                        "mistralai/mistral-large-2512":  {
+                                                                                             "name":  "Mistral Large 3 ($0.5/$1.5 per M)"
+                                                                                         },
+                                                        "mistralai/mistral-large-2407":  {
+                                                                                             "name":  "Mistral Large 2407 ($2/$6 per M)"
+                                                                                         },
+                                                        "mistralai/ministral-14b-2512":  {
+                                                                                             "name":  "Ministral 3 14B 2512 ($0.2/$0.2 per M)"
+                                                                                         },
+                                                        "mistralai/mistral-large-4-0":  {
+                                                                                            "name":  "Mistral Large 4 ($0.68/$2.09 per M)"
+                                                                                        },
+                                                        "mistralai/mistral-small-3.1-24b-instruct":  {
+                                                                                                         "name":  "Mistral Small 3.1 24B ($0.35/$0.56 per M)"
+                                                                                                     },
+                                                        "mistralai/ministral-3b-2512":  {
+                                                                                            "name":  "Ministral 3 3B 2512 ($0.1/$0.1 per M)"
+                                                                                        },
+                                                        "mistralai/mixtral-8x22b-instruct":  {
+                                                                                                 "name":  "Mixtral 8x22B Instruct ($2/$6 per M)"
+                                                                                             },
+                                                        "mistralai/codestral-2508":  {
+                                                                                         "name":  "Codestral 25.08 ($0.3/$0.9 per M)"
+                                                                                     },
+                                                        "sakana/fugu-max":  {
+                                                                                "name":  "Fugu Max ($2/$6 per M)"
+                                                                            },
+                                                        "sakana/fugu-ultra-v2":  {
+                                                                                     "name":  "Fugu Ultra v2 ($5/$30 per M; \u003e=272k ctx: $10/$45)"
+                                                                                 },
+                                                        "sakana/fugu-ultra":  {
+                                                                                  "name":  "Fugu Ultra ($5/$30 per M; \u003e=272k ctx: $10/$45)"
+                                                                              },
+                                                        "sakana/sakana-namazu":  {
+                                                                                     "name":  "Sakana Namazu ($0.95/$4 per M)"
+                                                                                 },
+                                                        "inclusionai/ling-3.0-flash":  {
+                                                                                           "name":  "Ling 3.0 Flash ($0.02/$0.06 per M)"
+                                                                                       },
+                                                        "inclusionai/ling-3.1-flash":  {
+                                                                                           "name":  "Ling 3.1 Flash (free)"
+                                                                                       },
+                                                        "inclusionai/ling-3.0-flash-sante":  {
+                                                                                                 "name":  "Ling 3.0 Flash Sante ($0.04/$0.12 per M)"
+                                                                                             },
+                                                        "inclusionai/ling-3.0-flash-vl":  {
+                                                                                              "name":  "Ling 3.0 Flash VL ($0.02/$0.06 per M)"
+                                                                                          },
+                                                        "inclusionai/ling-3.0-flash-fin":  {
+                                                                                               "name":  "Ling 3.0 Flash Fin ($0.04/$0.12 per M)"
+                                                                                           },
+                                                        "moonshotai/kimi-k3":  {
+                                                                                   "name":  "Kimi K3 ($0.73/$10 per M)"
+                                                                               },
+                                                        "moonshotai/kimi-k2.6":  {
+                                                                                     "name":  "Kimi K2.6 ($0.65/$3.41 per M)"
+                                                                                 },
+                                                        "moonshotai/kimi-k2-thinking":  {
+                                                                                            "name":  "Kimi K2 Thinking ($0.6/$2.5 per M)"
+                                                                                        },
+                                                        "moonshotai/kimi-k2.5":  {
+                                                                                     "name":  "Kimi K2.5 ($0.5/$2.5 per M)"
+                                                                                 },
+                                                        "moonshotai/kimi-k2-0905":  {
+                                                                                        "name":  "Kimi K2 Instruct 0905 ($0.6/$2.5 per M)"
+                                                                                    },
+                                                        "moonshotai/kimi-k2":  {
+                                                                                   "name":  "Kimi K2 0711 ($0.57/$2.3 per M)"
+                                                                               },
+                                                        "moonshotai/kimi-k2.7-code":  {
+                                                                                          "name":  "Kimi K2.7 Code ($0.67/$3.35 per M)"
+                                                                                      },
+                                                        "rekaai/reka-flash-3":  {
+                                                                                    "name":  "Reka Flash 3 ($0.1/$0.2 per M)"
+                                                                                },
+                                                        "rekaai/reka-edge":  {
+                                                                                 "name":  "Reka Edge ($0.1/$0.1 per M)"
+                                                                             },
+                                                        "apodex/apodex-1.1-mini:free":  {
+                                                                                            "name":  "Apodex 1.1 Mini (free)"
+                                                                                        },
+                                                        "nvidia/nemotron-3-nano-30b-a3b":  {
+                                                                                               "name":  "Nemotron 3 Nano 30B A3B ($0.06/$0.24 per M)"
+                                                                                           },
+                                                        "nvidia/nemotron-3.5-content-safety:free":  {
+                                                                                                        "name":  "Nemotron 3.5 Content Safety (free)"
+                                                                                                    },
+                                                        "nvidia/nemotron-3.5-lightning":  {
+                                                                                              "name":  "Nemotron 3.5 Lightning 30B A3B ($0.07/$0.2 per M)"
+                                                                                          },
+                                                        "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free":  {
+                                                                                                                   "name":  "Nemotron 3 Nano Omni (free)"
+                                                                                                               },
+                                                        "nvidia/nemotron-3-super-120b-a12b":  {
+                                                                                                  "name":  "Nemotron 3 Super 120B A12B ($0.08/$0.45 per M)"
+                                                                                              },
+                                                        "nvidia/nemotron-3-ultra-550b-a55b:free":  {
+                                                                                                       "name":  "Nemotron 3 Ultra (free)"
+                                                                                                   },
+                                                        "nvidia/nemotron-3-ultra-550b-a55b":  {
+                                                                                                  "name":  "Nemotron 3 Ultra 550B A55B ($0.6/$2.4 per M)"
+                                                                                              },
+                                                        "nvidia/nemotron-3-super-120b-a12b:free":  {
+                                                                                                       "name":  "Nemotron 3 Super (free)"
+                                                                                                   },
+                                                        "nvidia/nemotron-3.5-content-safety":  {
+                                                                                                   "name":  "Nemotron 3.5 Content Safety ($0.2/$0.2 per M)"
+                                                                                               },
+                                                        "nvidia/nemotron-3.5-lightning:free":  {
+                                                                                                   "name":  "Nemotron 3.5 Lightning (free)"
+                                                                                               },
+                                                        "xiaomi/mimo-v2.6-pro":  {
+                                                                                     "name":  "MiMo-V2.6-Pro ($0.44/$0.87 per M)"
+                                                                                 },
+                                                        "xiaomi/mimo-v2.5":  {
+                                                                                 "name":  "MiMo-V2.5 ($0.14/$0.28 per M)"
+                                                                             },
+                                                        "xiaomi/mimo-v2.6-pro-ultraspeed":  {
+                                                                                                "name":  "MiMo-V2.6-Pro-UltraSpeed ($4.35/$8.7 per M)"
+                                                                                            },
+                                                        "xiaomi/mimo-v2.5-pro":  {
+                                                                                     "name":  "MiMo-V2.5-Pro ($0.44/$0.87 per M)"
+                                                                                 },
+                                                        "xiaomi/mimo-v2.6-flash":  {
+                                                                                       "name":  "MiMo-V2.6-Flash ($0.14/$0.28 per M)"
+                                                                                   },
+                                                        "undi95/remm-slerp-l2-13b":  {
+                                                                                         "name":  "ReMM SLERP 13B ($0.35/$0.65 per M)"
+                                                                                     },
+                                                        "gryphe/mythomax-l2-13b":  {
+                                                                                       "name":  "MythoMax 13B ($0.08/$0.11 per M)"
+                                                                                   },
+                                                        "minimax/minimax-m2.5":  {
+                                                                                     "name":  "MiniMax-M2.5 ($0.27/$1.08 per M)"
+                                                                                 },
+                                                        "minimax/minimax-01":  {
+                                                                                   "name":  "MiniMax-01 ($0.2/$1.1 per M)"
+                                                                               },
+                                                        "minimax/minimax-m2-her":  {
+                                                                                       "name":  "MiniMax-M2 Her ($0.3/$1.2 per M)"
+                                                                                   },
+                                                        "minimax/minimax-m2.7":  {
+                                                                                     "name":  "MiniMax-M2.7 ($0.21/$0.84 per M)"
+                                                                                 },
+                                                        "minimax/minimax-m1":  {
+                                                                                   "name":  "MiniMax M1 ($0.55/$2.2 per M)"
+                                                                               },
+                                                        "minimax/minimax-m3":  {
+                                                                                   "name":  "MiniMax-M3 ($0.3/$1.2 per M)"
+                                                                               },
+                                                        "minimax/minimax-m2.1":  {
+                                                                                     "name":  "MiniMax-M2.1 ($0.3/$1.2 per M)"
+                                                                                 },
+                                                        "minimax/minimax-m2":  {
+                                                                                   "name":  "MiniMax-M2 ($0.3/$1.2 per M)"
+                                                                               },
+                                                        "mancer/weaver":  {
+                                                                              "name":  "Weaver (alpha) ($0.4/$0.75 per M)"
+                                                                          },
+                                                        "stepfun/step-5-preview":  {
+                                                                                       "name":  "Step 5 Preview ($1/$2.7 per M)"
+                                                                                   },
+                                                        "stepfun/step-3.5-flash":  {
+                                                                                       "name":  "Step 3.5 Flash ($0.1/$0.3 per M)"
+                                                                                   },
+                                                        "stepfun/step-3.7-flash":  {
+                                                                                       "name":  "Step 3.7 Flash ($0.2/$1.15 per M)"
+                                                                                   },
+                                                        "dots-studio/dots-3-note-preview:free":  {
+                                                                                                     "name":  "Dots3-Note Preview (free)"
+                                                                                                 },
+                                                        "inception/mercury-2.5":  {
+                                                                                      "name":  "Mercury 2.5 ($0.04/$0.15 per M)"
+                                                                                  },
+                                                        "inception/mercury-2":  {
+                                                                                    "name":  "Mercury 2 ($0.25/$0.75 per M)"
+                                                                                },
+                                                        "amazon/nova-lite-v1":  {
+                                                                                    "name":  "Nova Lite 1.0 ($0.06/$0.24 per M)"
+                                                                                },
+                                                        "amazon/nova-2-lite-v1":  {
+                                                                                      "name":  "Nova 2 Lite ($0.3/$2.5 per M)"
+                                                                                  },
+                                                        "amazon/nova-pro-v1":  {
+                                                                                   "name":  "Nova Pro 1.0 ($0.8/$3.2 per M)"
+                                                                               },
+                                                        "amazon/nova-premier-v1":  {
+                                                                                       "name":  "Nova Premier 1.0 ($2.5/$12.5 per M)"
+                                                                                   },
+                                                        "amazon/nova-micro-v1":  {
+                                                                                     "name":  "Nova Micro 1.0 ($0.04/$0.14 per M)"
+                                                                                 },
+                                                        "relace/relace-search":  {
+                                                                                     "name":  "Relace Search ($1/$3 per M)"
+                                                                                 },
+                                                        "relace/relace-apply-3":  {
+                                                                                      "name":  "Relace Apply 3 ($0.85/$1.25 per M)"
+                                                                                  },
+                                                        "aion-labs/aion-2.0":  {
+                                                                                   "name":  "Aion-2.0 ($0.8/$1.6 per M)"
+                                                                               },
+                                                        "aion-labs/aion-rp-llama-3.1-8b":  {
+                                                                                               "name":  "Aion-RP 1.0 (8B) ($0.8/$1.6 per M)"
+                                                                                           },
+                                                        "aion-labs/aion-3.0":  {
+                                                                                   "name":  "Aion-3.0 ($3/$6 per M)"
+                                                                               },
+                                                        "aion-labs/aion-3.5":  {
+                                                                                   "name":  "Aion 3.5 ($3/$6 per M)"
+                                                                               },
+                                                        "aion-labs/aion-3.5-mini":  {
+                                                                                        "name":  "Aion 3.5 Mini ($0.7/$1.4 per M)"
+                                                                                    },
+                                                        "aion-labs/aion-3.0-mini":  {
+                                                                                        "name":  "Aion-3.0-Mini ($0.7/$1.4 per M)"
+                                                                                    },
+                                                        "qwen/qwen3-235b-a22b-2507":  {
+                                                                                          "name":  "Qwen3 235B A22B Instruct 2507 ($0.09/$0.55 per M)"
+                                                                                      },
+                                                        "qwen/qwen3-vl-235b-a22b-instruct":  {
+                                                                                                 "name":  "Qwen3 VL 235B A22B Instruct ($0.21/$1.9 per M)"
+                                                                                             },
+                                                        "qwen/qwen3.7-max":  {
+                                                                                 "name":  "Qwen3.7 Max ($1.48/$4.43 per M)"
+                                                                             },
+                                                        "qwen/qwen3.8-27b":  {
+                                                                                 "name":  "Qwen3.8 27B ($0.04/$2.3 per M)"
+                                                                             },
+                                                        "qwen/qwen3.8-2.4t-a95b":  {
+                                                                                       "name":  "Qwen3.8 2.4T A95B ($2/$6 per M)"
+                                                                                   },
+                                                        "qwen/qwen3.5-27b":  {
+                                                                                 "name":  "Qwen3.5 27B ($0.26/$2.6 per M)"
+                                                                             },
+                                                        "qwen/qwen3-next-80b-a3b-thinking":  {
+                                                                                                 "name":  "Qwen3-Next 80B-A3B (Thinking) ($0.15/$1.2 per M)"
+                                                                                             },
+                                                        "qwen/qwen3-coder-next":  {
+                                                                                      "name":  "Qwen3 Coder Next ($0.12/$0.8 per M)"
+                                                                                  },
+                                                        "qwen/qwen3-coder":  {
+                                                                                 "name":  "Qwen3 Coder 480B A35B ($0.3/$1 per M)"
+                                                                             },
+                                                        "qwen/qwen3-32b":  {
+                                                                               "name":  "Qwen3 32B ($0.08/$0.28 per M)"
+                                                                           },
+                                                        "qwen/qwen-plus":  {
+                                                                               "name":  "Qwen Plus ($0.26/$0.78 per M; \u003e=256k ctx: $0.78/$2.34)"
+                                                                           },
+                                                        "qwen/qwen3.7-flash":  {
+                                                                                   "name":  "Qwen3.7 Flash ($0.03/$0.13 per M; \u003e=32k ctx: $0.1/$0.4; \u003e=256k ctx: $0.2/$0.8)"
+                                                                               },
+                                                        "qwen/qwen3-coder-30b-a3b-instruct":  {
+                                                                                                  "name":  "Qwen3-Coder 30B-A3B Instruct ($0.07/$0.28 per M)"
+                                                                                              },
+                                                        "qwen/qwen3.8-omni-flash":  {
+                                                                                        "name":  "Qwen3.8 Omni Flash ($0.15/$0.47 per M)"
+                                                                                    },
+                                                        "qwen/qwen3-vl-30b-a3b-instruct":  {
+                                                                                               "name":  "Qwen3 VL 30B A3B Instruct ($0.15/$0.6 per M)"
+                                                                                           },
+                                                        "qwen/qwen3-235b-a22b-thinking-2507":  {
+                                                                                                   "name":  "Qwen3 235B A22B Thinking 2507 ($0.45/$3.5 per M)"
+                                                                                               },
+                                                        "qwen/qwen3.5-122b-a10b":  {
+                                                                                       "name":  "Qwen3.5 122B-A10B ($0.26/$2.08 per M)"
+                                                                                   },
+                                                        "qwen/qwen3.6-35b-a3b":  {
+                                                                                     "name":  "Qwen3.6 35B-A3B ($0.1/$0.95 per M)"
+                                                                                 },
+                                                        "qwen/qwen3-next-80b-a3b-instruct":  {
+                                                                                                 "name":  "Qwen3-Next 80B-A3B Instruct ($0.1/$1.1 per M)"
+                                                                                             },
+                                                        "qwen/qwen3-vl-30b-a3b-thinking":  {
+                                                                                               "name":  "Qwen3 VL 30B A3B Thinking ($0.29/$1 per M)"
+                                                                                           },
+                                                        "qwen/qwen3.6-flash":  {
+                                                                                   "name":  "Qwen3.6 Flash ($0.19/$1.13 per M; \u003e=256k ctx: $0.75/$3)"
+                                                                               },
+                                                        "qwen/qwen3-coder-flash":  {
+                                                                                       "name":  "Qwen3 Coder Flash ($0.2/$0.98 per M; \u003e=32k ctx: $0.33/$1.63; \u003e=128k ctx: $0.52/$2.6)"
+                                                                                   },
+                                                        "qwen/qwen-2.5-coder-32b-instruct":  {
+                                                                                                 "name":  "Qwen2.5 Coder 32B Instruct ($0.66/$1 per M)"
+                                                                                             },
+                                                        "qwen/qwen3.5-flash-02-23":  {
+                                                                                         "name":  "Qwen3.5-Flash ($0.07/$0.26 per M)"
+                                                                                     },
+                                                        "qwen/qwen3.5-9b":  {
+                                                                                "name":  "Qwen3.5 9B ($0.1/$0.15 per M)"
+                                                                            },
+                                                        "qwen/qwen3.8-max-prime":  {
+                                                                                       "name":  "Qwen 3.8 Max Prime ($4/$12 per M)"
+                                                                                   },
+                                                        "qwen/qwen3.5-plus-20260420":  {
+                                                                                           "name":  "Qwen3.5 Plus 2026-04-20 ($0.3/$1.8 per M; \u003e=256k ctx: $0.38/$2.25)"
+                                                                                       },
+                                                        "qwen/qwen3.8-flash":  {
+                                                                                   "name":  "Qwen3.8 Flash ($0.15/$0.47 per M)"
+                                                                               },
+                                                        "qwen/qwen3.5-35b-a3b":  {
+                                                                                     "name":  "Qwen3.5 35B-A3B ($0.08/$0.75 per M)"
+                                                                                 },
+                                                        "qwen/qwen3-30b-a3b":  {
+                                                                                   "name":  "Qwen3 30B A3B ($0.12/$0.5 per M)"
+                                                                               },
+                                                        "qwen/qwen3.5-397b-a17b":  {
+                                                                                       "name":  "Qwen3.5 397B-A17B ($0.55/$3.5 per M)"
+                                                                                   },
+                                                        "qwen/qwen3-vl-8b-instruct":  {
+                                                                                          "name":  "Qwen3 VL 8B Instruct ($0.25/$0.75 per M)"
+                                                                                      },
+                                                        "qwen/qwen3-30b-a3b-instruct-2507":  {
+                                                                                                 "name":  "Qwen3 30B A3B Instruct 2507 ($0.1/$0.3 per M)"
+                                                                                             },
+                                                        "qwen/qwen2.5-vl-72b-instruct":  {
+                                                                                             "name":  "Qwen2.5 VL 72B Instruct ($0.8/$1 per M)"
+                                                                                         },
+                                                        "qwen/qwen-2.5-7b-instruct":  {
+                                                                                          "name":  "Qwen2.5 7B Instruct ($0.1/$0.2 per M)"
+                                                                                      },
+                                                        "qwen/qwen3.5-plus-02-15":  {
+                                                                                        "name":  "Qwen3.5 Plus 2026-02-15 ($0.26/$1.56 per M; \u003e=256k ctx: $0.33/$1.95)"
+                                                                                    },
+                                                        "qwen/qwen-2.5-72b-instruct":  {
+                                                                                           "name":  "Qwen2.5 72B Instruct ($0.36/$0.4 per M)"
+                                                                                       },
+                                                        "qwen/qwen3.6-27b":  {
+                                                                                 "name":  "Qwen3.6 27B ($0.32/$3.2 per M)"
+                                                                             },
+                                                        "qwen/qwen3.6-plus":  {
+                                                                                  "name":  "Qwen3.6 Plus ($0.33/$1.95 per M; \u003e=256k ctx: $1.3/$3.9)"
+                                                                              },
+                                                        "qwen/qwen3-14b":  {
+                                                                               "name":  "Qwen3 14B ($0.12/$0.24 per M)"
+                                                                           },
+                                                        "qwen/qwen3.7-plus":  {
+                                                                                  "name":  "Qwen3.7 Plus ($0.32/$1.28 per M; \u003e=256k ctx: $0.96/$3.84)"
+                                                                              },
+                                                        "qwen/qwen3.8-max-0902":  {
+                                                                                      "name":  "Qwen3.8 Max 0902 ($2/$6 per M)"
+                                                                                  },
+                                                        "morph/morph-v3-large":  {
+                                                                                     "name":  "Morph V3 Large ($0.9/$1.9 per M)"
+                                                                                 },
+                                                        "morph/morph-v3-fast":  {
+                                                                                    "name":  "Morph V3 Fast ($0.8/$1.2 per M)"
+                                                                                },
+                                                        "openai/gpt-5.4":  {
+                                                                               "name":  "GPT-5.4 ($2.5/$15 per M; \u003e=272k ctx: $5/$22.5)"
+                                                                           },
+                                                        "openai/gpt-5.4-image-2":  {
+                                                                                       "name":  "GPT-5.4 Image 2 ($8/$15 per M)"
+                                                                                   },
+                                                        "openai/gpt-5.4-pro":  {
+                                                                                   "name":  "GPT-5.4 Pro ($30/$180 per M; \u003e=272k ctx: $60/$270)"
+                                                                               },
+                                                        "openai/gpt-audio":  {
+                                                                                 "name":  "GPT Audio ($2.5/$10 per M)"
+                                                                             },
+                                                        "openai/gpt-3.5-turbo":  {
+                                                                                     "name":  "GPT-3.5-turbo ($0.5/$1.5 per M)"
+                                                                                 },
+                                                        "openai/gpt-6-astra-pro":  {
+                                                                                       "name":  "GPT-6 Astra Pro ($10/$50 per M; \u003e=272k ctx: $20/$75)"
+                                                                                   },
+                                                        "openai/gpt-5.5-pro":  {
+                                                                                   "name":  "GPT-5.5 Pro ($30/$180 per M; \u003e=272k ctx: $60/$270)"
+                                                                               },
+                                                        "openai/gpt-5.4-nano":  {
+                                                                                    "name":  "GPT-5.4 nano ($0.2/$1.25 per M)"
+                                                                                },
+                                                        "openai/gpt-4o-2024-05-13":  {
+                                                                                         "name":  "GPT-4o (2024-05-13) ($5/$15 per M)"
+                                                                                     },
+                                                        "openai/gpt-4o-mini-2024-07-18":  {
+                                                                                              "name":  "GPT-4o-mini (2024-07-18) ($0.15/$0.6 per M)"
+                                                                                          },
+                                                        "openai/gpt-5.2-codex":  {
+                                                                                     "name":  "GPT-5.2 Codex ($1.75/$14 per M)"
+                                                                                 },
+                                                        "openai/gpt-5.1-codex":  {
+                                                                                     "name":  "GPT-5.1 Codex ($1.25/$10 per M)"
+                                                                                 },
+                                                        "openai/gpt-4o":  {
+                                                                              "name":  "GPT-4o ($2.5/$10 per M)"
+                                                                          },
+                                                        "openai/gpt-chat-latest":  {
+                                                                                       "name":  "GPT Chat Latest ($5/$30 per M)"
+                                                                                   },
+                                                        "openai/gpt-audio-mini":  {
+                                                                                      "name":  "GPT Audio Mini ($0.6/$2.4 per M)"
+                                                                                  },
+                                                        "openai/gpt-5.6-sol-pro":  {
+                                                                                       "name":  "GPT-5.6 Sol Pro ($2/$10 per M; \u003e=272k ctx: $4/$15)"
+                                                                                   },
+                                                        "openai/gpt-5-mini":  {
+                                                                                  "name":  "GPT-5 Mini ($0.25/$2 per M)"
+                                                                              },
+                                                        "openai/gpt-5.2-pro":  {
+                                                                                   "name":  "GPT-5.2 Pro ($21/$168 per M)"
+                                                                               },
+                                                        "openai/o4-mini":  {
+                                                                               "name":  "o4-mini ($1.1/$4.4 per M)"
+                                                                           },
+                                                        "openai/o3-mini":  {
+                                                                               "name":  "o3-mini ($1.1/$4.4 per M)"
+                                                                           },
+                                                        "openai/gpt-4":  {
+                                                                             "name":  "GPT-4 ($30/$60 per M)"
+                                                                         },
+                                                        "openai/gpt-5.3-codex":  {
+                                                                                     "name":  "GPT-5.3 Codex ($1.75/$14 per M)"
+                                                                                 },
+                                                        "openai/gpt-4.1-nano":  {
+                                                                                    "name":  "GPT-4.1 nano ($0.1/$0.4 per M)"
+                                                                                },
+                                                        "openai/gpt-5-nano":  {
+                                                                                  "name":  "GPT-5 Nano ($0.05/$0.4 per M)"
+                                                                              },
+                                                        "openai/o1":  {
+                                                                          "name":  "o1 ($15/$60 per M)"
+                                                                      },
+                                                        "openai/gpt-5-pro":  {
+                                                                                 "name":  "GPT-5 Pro ($15/$120 per M)"
+                                                                             },
+                                                        "openai/gpt-3.5-turbo-instruct":  {
+                                                                                              "name":  "GPT-3.5 Turbo Instruct ($1.5/$2 per M)"
+                                                                                          },
+                                                        "openai/gpt-6.1-sol":  {
+                                                                                   "name":  "GPT-6.1 Sol ($2/$10 per M; \u003e=272k ctx: $4/$15)"
+                                                                               },
+                                                        "openai/gpt-4o-2024-08-06":  {
+                                                                                         "name":  "GPT-4o (2024-08-06) ($2.5/$10 per M)"
+                                                                                     },
+                                                        "openai/gpt-6-astra":  {
+                                                                                   "name":  "GPT-6 Astra ($10/$50 per M; \u003e=272k ctx: $20/$75)"
+                                                                               },
+                                                        "openai/gpt-5.6-luna-pro":  {
+                                                                                        "name":  "GPT-5.6 Luna Pro ($0.2/$1.2 per M; \u003e=272k ctx: $0.4/$1.8)"
+                                                                                    },
+                                                        "openai/gpt-5.1":  {
+                                                                               "name":  "GPT-5.1 ($1.25/$10 per M)"
+                                                                           },
+                                                        "openai/gpt-5-image-mini":  {
+                                                                                        "name":  "GPT-5 Image Mini ($2.5/$2 per M)"
+                                                                                    },
+                                                        "openai/gpt-4o-mini":  {
+                                                                                   "name":  "GPT-4o mini ($0.15/$0.6 per M)"
+                                                                               },
+                                                        "openai/o3-pro":  {
+                                                                              "name":  "o3-pro ($20/$80 per M)"
+                                                                          },
+                                                        "openai/gpt-oss-20b":  {
+                                                                                   "name":  "GPT OSS 20B ($0.02/$0.09 per M)"
+                                                                               },
+                                                        "openai/gpt-oss-safeguard-20b":  {
+                                                                                             "name":  "GPT OSS Safeguard 20B ($0.08/$0.3 per M)"
+                                                                                         },
+                                                        "openai/o3-mini-high":  {
+                                                                                    "name":  "o3 Mini High ($1.1/$4.4 per M)"
+                                                                                },
+                                                        "openai/gpt-3.5-turbo-16k":  {
+                                                                                         "name":  "GPT-3.5 Turbo 16k ($3/$4 per M)"
+                                                                                     },
+                                                        "openai/gpt-5.2-chat":  {
+                                                                                    "name":  "GPT-5.2 Chat ($1.75/$14 per M)"
+                                                                                },
+                                                        "openai/gpt-6-sol-pro":  {
+                                                                                     "name":  "GPT-6 Sol Pro ($2/$10 per M; \u003e=272k ctx: $4/$15)"
+                                                                                 },
+                                                        "openai/gpt-5-image":  {
+                                                                                   "name":  "GPT-5 Image ($10/$10 per M)"
+                                                                               },
+                                                        "openai/gpt-5.4-mini":  {
+                                                                                    "name":  "GPT-5.4 mini ($0.75/$4.5 per M)"
+                                                                                },
+                                                        "openai/gpt-5.6-luna":  {
+                                                                                    "name":  "GPT-5.6 Luna ($0.2/$1.2 per M; \u003e=272k ctx: $0.4/$1.8)"
+                                                                                },
+                                                        "openai/gpt-5.1-codex-max":  {
+                                                                                         "name":  "GPT-5.1 Codex Max ($1.25/$10 per M)"
+                                                                                     },
+                                                        "openai/gpt-5.2":  {
+                                                                               "name":  "GPT-5.2 ($1.75/$14 per M)"
+                                                                           },
+                                                        "openai/gpt-5.5":  {
+                                                                               "name":  "GPT-5.5 ($5/$30 per M; \u003e=272k ctx: $10/$45)"
+                                                                           },
+                                                        "openai/gpt-4.1":  {
+                                                                               "name":  "GPT-4.1 ($2/$8 per M)"
+                                                                           },
+                                                        "openai/gpt-4o-2024-11-20":  {
+                                                                                         "name":  "GPT-4o (2024-11-20) ($2.5/$10 per M)"
+                                                                                     },
+                                                        "openai/gpt-3.5-turbo-0613":  {
+                                                                                          "name":  "GPT-3.5 Turbo (older v0613) ($1/$2 per M)"
+                                                                                      },
+                                                        "openai/gpt-4.1-mini":  {
+                                                                                    "name":  "GPT-4.1 mini ($0.4/$1.6 per M)"
+                                                                                },
+                                                        "openai/gpt-5.6-terra-pro":  {
+                                                                                         "name":  "GPT-5.6 Terra Pro ($2/$12 per M; \u003e=272k ctx: $4/$18)"
+                                                                                     },
+                                                        "openai/gpt-6-luna":  {
+                                                                                  "name":  "GPT-6 Luna ($0.1/$0.5 per M; \u003e=272k ctx: $0.2/$0.75)"
+                                                                              },
+                                                        "openai/gpt-6.1-sol-pro":  {
+                                                                                       "name":  "GPT-6.1 Sol Pro ($2/$10 per M; \u003e=272k ctx: $4/$15)"
+                                                                                   },
+                                                        "openai/o4-mini-high":  {
+                                                                                    "name":  "o4 Mini High ($1.1/$4.4 per M)"
+                                                                                },
+                                                        "openai/gpt-6-luna-pro":  {
+                                                                                      "name":  "GPT-6 Luna Pro ($0.1/$0.5 per M; \u003e=272k ctx: $0.2/$0.75)"
+                                                                                  },
+                                                        "openai/gpt-5.6-terra":  {
+                                                                                     "name":  "GPT-5.6 Terra ($2/$12 per M; \u003e=272k ctx: $4/$18)"
+                                                                                 },
+                                                        "openai/gpt-4-turbo":  {
+                                                                                   "name":  "GPT-4 Turbo ($10/$30 per M)"
+                                                                               },
+                                                        "openai/gpt-oss-120b":  {
+                                                                                    "name":  "GPT OSS 120B ($0.04/$0.17 per M)"
+                                                                                },
+                                                        "openai/gpt-5.1-codex-mini":  {
+                                                                                          "name":  "GPT-5.1 Codex mini ($0.25/$2 per M)"
+                                                                                      },
+                                                        "openai/o3":  {
+                                                                          "name":  "o3 ($2/$8 per M)"
+                                                                      },
+                                                        "openai/gpt-5":  {
+                                                                             "name":  "GPT-5 ($1.25/$10 per M)"
+                                                                         },
+                                                        "openai/gpt-5.6-sol":  {
+                                                                                   "name":  "GPT-5.6 Sol ($2/$10 per M; \u003e=272k ctx: $4/$15)"
+                                                                               },
+                                                        "openai/gpt-6-sol":  {
+                                                                                 "name":  "GPT-6 Sol ($2/$10 per M; \u003e=272k ctx: $4/$15)"
+                                                                             },
+                                                        "openai/o1-pro":  {
+                                                                              "name":  "o1-pro ($150/$600 per M)"
+                                                                          },
+                                                        "microsoft/phi-4":  {
+                                                                                "name":  "Phi 4 ($0.07/$0.14 per M)"
+                                                                            },
+                                                        "microsoft/wizardlm-2-8x22b":  {
+                                                                                           "name":  "WizardLM-2 8x22B ($0.62/$0.62 per M)"
+                                                                                       },
+                                                        "qwen/qwen3.8-27b-cerebras":  {
+                                                                                          "name":  "Qwen3.8 27B @ Cerebras ($0.99/$1.49 per M)",
+                                                                                          "modelID":  "qwen/qwen3.8-27b",
+                                                                                          "limit":  {
+                                                                                                        "context":  65536,
+                                                                                                        "output":  32768
+                                                                                                    },
+                                                                                          "capabilities":  {
+                                                                                                               "tools":  true,
+                                                                                                               "input":  [
+                                                                                                                             "text"
+                                                                                                                         ],
+                                                                                                               "output":  [
+                                                                                                                              "text"
+                                                                                                                          ]
+                                                                                                           },
+                                                                                          "body":  {
+                                                                                                       "provider":  {
+                                                                                                                        "only":  [
+                                                                                                                                     "cerebras"
+                                                                                                                                 ],
+                                                                                                                        "allow_fallbacks":  false
+                                                                                                                    }
+                                                                                                   }
+                                                                                      }
+                                                    }
+                                     }
+                  }
+}
